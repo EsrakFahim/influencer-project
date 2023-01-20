@@ -1,0 +1,127 @@
+/* ---------fonts--------------  */
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@500&display=swap');
+
+
+/* ---------------
+        common style
+                ---------------------- */
+body {
+    font-family: 'Sofia Sans', sans-serif;
+    margin: 0;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* ----------------------
+            header section start
+            -------------------------  */
+
+/* -------------------
+                navigation part start
+                ------------------------- */
+#navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 40px;
+
+}
+
+.nav_logo {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.nav_item ul {
+    display: flex;
+    gap: 30px;
+}
+
+.nav_item li {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.fa-magnifying-glass,
+.fa-cart-shopping {
+    font-size: 25px;
+    color: #060136;
+}
+
+/* -------------------------
+                navigation part end 
+                        ------------------ */
+
+/* ---------------------
+                    banner part start 
+                                ---------------- */
+
+#banner_conteinar {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-evenly;
+    margin: 80px 0;
+}
+
+.banner_content {
+    width: 100%;
+    padding-left: 100px;
+}
+
+.banner_content h1 {
+    font-size: 60px;
+    margin: 0;
+}
+
+.banner_content p {
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 10px;
+    padding-right: 150px;
+    margin: 0;
+}
+
+.banner_img {
+    width: 100%;
+    padding-left: 100px;
+    padding-top: 50px;
+    background-image: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* -----------------------
+                banner part end 
+                        ----------------- */
+
+/* ------------------------
+                header part end 
+                    ----------------- */
+
+/* -----------------------
+                brand part start
+                        ----------------- */
+
+.brand_conteinar{
+    width: 80%;
+    padding: 0 10%;
+}
+#brand_logos {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 20px 0;
+}
+hr{
+    border: 1px solid #d3d3d4;
+}
