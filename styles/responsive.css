@@ -1,0 +1,110 @@
+/* ----------------------
+            for small and medium mobiles
+                        --------------------- */
+
+@media only screen and (max-width:688px) {
+    #navigation:first-child {
+        display: none;
+    }
+
+
+    /* ---------------------
+                    banner part start 
+                                ---------------- */
+
+
+    #banner_conteinar {
+        flex-direction: column-reverse;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .banner_img {
+        padding: 0;
+        width: 260px;
+        height: 260px;
+    }
+
+    .banner_img img {
+        width: 100%;
+    }
+
+    .banner_content h1 {
+        font-size: 40px;
+        margin: 0;
+    }
+
+    .banner_content {
+        width: 80%;
+        padding: 10%;
+        text-align: center;
+    }
+
+    .banner_content p {
+        padding-right: 0;
+        margin: 5px;
+    }
+
+    .primary_btn {
+        padding: 15px 70px;
+        font-size: 25px;
+        font-weight: 100;
+    }
+
+
+    /* ---------------------
+                    banner part end 
+                                ---------------- */
+
+    /* -----------------------
+                brand part start
+                        ----------------- */
+
+    #brand_logos {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    /* -----------------------
+                brand part end
+                        ----------------- */
+    /* ---------------------
+            product part start
+                -------------------- */
+    .box_conteinar{
+        grid-template-columns: 1fr;
+    }
+    /* ---------------------
+            product part end
+                -------------------- */
+
+    /* ---------------------
+            footer banner part start
+                -------------------- */
+    .footer_banner_content{
+        width: 90%;
+        padding: 50px 5% 30px 5%;
+    }
+    #footer_banner{
+        flex-direction: column-reverse;
+        justify-content: center;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .footer_btn{
+        padding-left: 20px;
+    }
+    .footer_banner_img{
+        width: 90%;
+        padding: 30px 5% 50px 5%;
+    }
+    .footer_banner_img img{
+        width: 100%;
+    } 
+
+    /* ---------------------
+            footer banner part start
+                -------------------- */
+
+}

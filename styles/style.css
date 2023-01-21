@@ -126,7 +126,10 @@ a{
     width: 100%;
     padding-left: 100px;
     padding-top: 50px;
+}
+.banner_img img{
     background-image: url(../images/Circle\ design.svg);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
