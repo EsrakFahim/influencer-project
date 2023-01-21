@@ -18,12 +18,18 @@
     .shoping_cart {
         display: block;
     }
+    .fa-cart-plus,.fa-bars{
+        font-size: 30px;
+    }
 
     .nav_logo {
         display: flex;
         justify-content: space-between;
         gap: 30px;
         align-items: center;
+    }
+    .nav_logo h1{
+        font-size: 28px;
     }
     /* -------------------
                 navigation part end
