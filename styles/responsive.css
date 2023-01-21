@@ -3,9 +3,30 @@
                         --------------------- */
 
 @media only screen and (max-width:688px) {
-    #navigation:first-child {
+    /* -------------------
+                navigation part start
+                ------------------------- */
+    #navigation {
+        margin: 20px 0;
+    }
+
+    .nav_item {
         display: none;
     }
+
+    .nav_toggler,
+    .shoping_cart {
+        display: block;
+    }
+
+    .nav_logo {
+        display: flex;
+        gap: 40px;
+        align-items: center;
+    }
+    /* -------------------
+                navigation part end
+                ------------------------- */
 
 
     /* ---------------------
@@ -71,9 +92,10 @@
     /* ---------------------
             product part start
                 -------------------- */
-    .box_conteinar{
+    .box_conteinar {
         grid-template-columns: 1fr;
     }
+
     /* ---------------------
             product part end
                 -------------------- */
@@ -81,30 +103,36 @@
     /* ---------------------
             footer banner part start
                 -------------------- */
-    .footer_banner_content{
+    .footer_banner_content {
         width: 90%;
         padding: 50px 5% 30px 5%;
     }
-    #footer_banner{
+
+    #footer_banner {
         flex-direction: column-reverse;
         justify-content: center;
         width: 100%;
         margin: 0;
         padding: 0;
     }
-    .footer_btn{
+
+    .footer_btn {
         padding-left: 20px;
     }
-    .footer_banner_img{
+
+    .footer_banner_img {
         width: 90%;
         padding: 30px 5% 50px 5%;
     }
-    .footer_banner_img img{
+
+    .footer_banner_img img {
         width: 100%;
-    } 
+    }
 
     /* ---------------------
             footer banner part start
                 -------------------- */
 
 }
+
+/* ---------------------------------------------***********************************--------------------------------------- */

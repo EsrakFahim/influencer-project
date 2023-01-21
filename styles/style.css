@@ -20,13 +20,16 @@ li {
     padding: 0;
     list-style: none;
 }
-a{
+
+a {
     text-decoration: none;
 }
-.btn_conteinar{
+
+.btn_conteinar {
     margin-top: 30px;
 }
-.primary_btn{
+
+.primary_btn {
     padding: 10px 20px;
     background-color: #e02c6d;
     color: #ffffff;
@@ -53,12 +56,21 @@ a{
     font-size: 20px;
     font-weight: 900;
 }
-.nav_logo a{
+
+/* only for responsive */
+.nav_toggler ,.shoping_cart{
+    display: none;
+}
+/* only for responsive */
+
+
+.nav_logo a {
     color: #000000;
     transition: 500ms ease;
     outline: none;
 }
-.nav_logo a:hover{
+
+.nav_logo a:hover {
     color: #4e4e4e;
 }
 
@@ -71,8 +83,9 @@ a{
     font-size: 18px;
     font-weight: 400;
 }
-.nav_item a{
-    color:#000000;
+
+.nav_item a {
+    color: #000000;
     transition: 500ms ease;
 }
 
@@ -83,7 +96,9 @@ a{
     transition: 500ms ease;
 }
 
-.nav_item a:hover,.fa-magnifying-glass:hover,.fa-cart-shopping:hover{
+.nav_item a:hover,
+.fa-magnifying-glass:hover,
+.fa-cart-shopping:hover {
     color: #575757;
 }
 
@@ -127,7 +142,8 @@ a{
     padding-left: 100px;
     padding-top: 50px;
 }
-.banner_img img{
+
+.banner_img img {
     background-image: url(../images/Circle\ design.svg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -319,7 +335,8 @@ footer {
     text-align: center;
     width: 270px;
 }
-.footer_conteinar h3{
+
+.footer_conteinar h3 {
     font-size: 25px;
     margin: 0;
 }
@@ -333,15 +350,23 @@ footer {
 .footer_conteinar li {
     font-size: 25px;
 }
-.fa-facebook ,.fa-twitter,.fa-google-plus-g,.fa-linkedin-in{
+
+.fa-facebook,
+.fa-twitter,
+.fa-google-plus-g,
+.fa-linkedin-in {
     color: #ffffff;
     margin-top: 10px;
     transition: 500ms ease;
 }
 
-.fa-facebook:hover,.fa-twitter:hover,.fa-google-plus-g:hover,.fa-linkedin-in:hover{
+.fa-facebook:hover,
+.fa-twitter:hover,
+.fa-google-plus-g:hover,
+.fa-linkedin-in:hover {
     color: #787885;
 }
+
 /* ---------------------
             footer  part end
                 -------------------- */
