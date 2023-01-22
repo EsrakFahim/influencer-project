@@ -27,6 +27,7 @@ a {
 
 .btn_conteinar {
     margin-top: 30px;
+    transition: 500ms ease;
 }
 
 .primary_btn {
@@ -35,6 +36,9 @@ a {
     color: #ffffff;
     font-size: 18px;
     border-radius: 25px;
+}
+.btn_conteinar:hover{
+    margin-left: 5px;
 }
 
 /* ----------------------
